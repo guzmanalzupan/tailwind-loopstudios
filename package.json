@@ -1,0 +1,16 @@
+{
+  "name": "03---websites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind-build": "tailwind -i ./src/input.css -o ./build/styles/output.css",
+    "tailwind-watch": "tailwind -i ./src/input.css -o ./build/styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
